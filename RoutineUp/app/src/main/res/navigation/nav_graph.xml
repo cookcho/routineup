@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.routineup.ui.main.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_routine_creation"
+            app:destination="@id/navigation_routine_creation" />
+        <action
+            android:id="@+id/action_home_to_growth"
+            app:destination="@id/navigation_growth" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_routines"
+        android:name="com.routineup.ui.routine.RoutineListFragment"
+        android:label="@string/all_routines"
+        tools:layout="@layout/fragment_routine_list">
+        <action
+            android:id="@+id/action_routines_to_routine_creation"
+            app:destination="@id/navigation_routine_creation" />
+        <action
+            android:id="@+id/action_routines_to_routine_detail"
+            app:destination="@id/navigation_routine_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_growth"
+        android:name="com.routineup.ui.character.CharacterGrowthFragment"
+        android:label="@string/my_growth"
+        tools:layout="@layout/fragment_character_growth" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.routineup.ui.settings.SettingsFragment"
+        android:label="@string/more"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_routine_creation"
+        android:name="com.routineup.ui.routine.RoutineCreationFragment"
+        android:label="@string/add_routine"
+        tools:layout="@layout/fragment_routine_creation">
+        <argument
+            android:name="routine_id"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_routine_detail"
+        android:name="com.routineup.ui.routine.RoutineDetailFragment"
+        android:label="루틴 상세"
+        tools:layout="@layout/fragment_routine_detail">
+        <argument
+            android:name="routine_id"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_routine_detail_to_routine_creation"
+            app:destination="@id/navigation_routine_creation" />
+    </fragment>
+
+</navigation>

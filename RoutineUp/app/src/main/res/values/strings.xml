@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">루틴업</string>
+    
+    <!-- 공통 -->
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="save">저장</string>
+    <string name="delete">삭제</string>
+    <string name="edit">수정</string>
+    <string name="next">다음</string>
+    <string name="previous">이전</string>
+    <string name="skip">건너뛰기</string>
+    <string name="start">시작하기</string>
+    
+    <!-- 온보딩 -->
+    <string name="onboarding_title_1">매일매일 라이프 레벨업!</string>
+    <string name="onboarding_desc_1">루틴업과 함께 꾸준한 습관으로\n나만의 성장을 경험해보세요.</string>
+    
+    <string name="onboarding_title_2">AI 루틴 매니저 루티</string>
+    <string name="onboarding_desc_2">당신의 루틴을 분석하고\n맞춤형 피드백을 제공하는 AI 매니저</string>
+    
+    <string name="onboarding_title_3">성장하는 캐릭터</string>
+    <string name="onboarding_desc_3">루틴을 완료할수록 캐릭터가 성장하고\n다양한 보상을 획득할 수 있어요</string>
+    
+    <string name="onboarding_title_4">지금 시작해보세요</string>
+    <string name="onboarding_desc_4">루틴업으로 매일 조금씩\n더 나은 나를 만들어보세요</string>
+    
+    <!-- 메인 화면 -->
+    <string name="today_routines">오늘의 루틴</string>
+    <string name="add_routine">루틴 추가하기</string>
+    <string name="no_routines">등록된 루틴이 없습니다</string>
+    <string name="complete_routine">완료하기</string>
+    <string name="completed">완료됨</string>
+    
+    <!-- 루틴 등록/수정 -->
+    <string name="create_routine">루틴 등록</string>
+    <string name="edit_routine">루틴 수정</string>
+    <string name="routine_name">루틴 이름</string>
+    <string name="routine_time">시간</string>
+    <string name="routine_days">반복 요일</string>
+    <string name="routine_icon">아이콘</string>
+    <string name="routine_memo">메모</string>
+    <string name="routine_notification">알림</string>
+    
+    <!-- 캐릭터 -->
+    <string name="character_level">레벨 %d</string>
+    <string name="character_exp">경험치: %d / %d</string>
+    <string name="consecutive_days">연속 %d일째</string>
+    <string name="total_completed">총 완료 루틴: %d개</string>
+    
+    <!-- 하단 네비게이션 -->
+    <string name="nav_home">홈</string>
+    <string name="nav_routines">루틴</string>
+    <string name="nav_character">캐릭터</string>
+    <string name="nav_settings">설정</string>
+    
+    <!-- 설정 -->
+    <string name="settings">설정</string>
+    <string name="notification_settings">알림 설정</string>
+    <string name="theme_settings">테마 설정</string>
+    <string name="language_settings">언어 설정</string>
+    <string name="account_settings">계정 설정</string>
+    <string name="about">앱 정보</string>
+    <string name="version">버전 %s</string>
+</resources>

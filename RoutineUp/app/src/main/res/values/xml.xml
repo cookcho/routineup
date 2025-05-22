@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml>
+        <path>@xml/data_extraction_rules</path>
+        <path>@xml/backup_rules</path>
+    </xml>
+</resources>
